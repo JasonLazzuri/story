@@ -8,6 +8,7 @@ function turn(humanChoice) {
   if (randomAI === 1) {
       aiChoice = "rock";
       alert(aiChoice);
+      $()
     } else if (randomAI === 2) {
       aiChoice = "paper";
       alert(aiChoice);
