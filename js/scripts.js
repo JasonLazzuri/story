@@ -31,10 +31,7 @@ $('.proceedButton2').click(function(){
   $('#chapterOne').show();
 });
 
-// $('.proceedButton1').click(function(){
-//   $('#riddleOneSuccess').hide();
-//   $('#chapterTwo').show();
-// });
+
 /////RIDDLE TWO/////
 
 $('#riddleAttemptButton2').click(function(){
@@ -59,10 +56,52 @@ $('.retryButtonChapter2').click(function(){
   $('#riddleTwo').show();
 });
 
-// $('.proceedButton1').click(function(){
-//   $('#riddleTwoSuccess').hide();
-//   $('#chapterThree').show();
-// });
+/////RIDDLE THREE/////
 
 
+$('#riddleAttemptButton3').click(function(){
+  $('#chapterThree').hide();
+  $('#riddleThree').show();
+});
+
+$('.riddle3btn').click(function(){
+  var answerThree = $(this).attr('id');
+  if (answerThree === 'trueButton') {
+    $('#riddleThree').hide();
+    $('#riddleThreeSuccess').show();
+
+  } else {
+    $('#riddleThree').hide();
+    $('#riddleThreeFail').show();
+  }
+});
+// Fail retry button
+$('.retryButtonChapter3').click(function(){
+  $('#riddleThreeFail').hide();
+  $('#riddleThree').show();
+});
+
+/////RIDDLE TWO/////
+
+$('#riddleAttemptButton4').click(function(){
+  $('#chapterFour').hide();
+  $('#riddleFour').show();
+});
+
+$('.riddle4btn').click(function(){
+  var answerTwo = $(this).attr('id');
+  if (answerTwo === 'trueButton') {
+    $('#riddleFour').hide();
+    $('#riddleFourSuccess').show();
+
+  } else {
+    $('#riddleFour').hide();
+    $('#riddleFourFail').show();
+  }
+});
+// Fail retry button
+$('.retryButtonChapter4').click(function(){
+  $('#riddleFourFail').hide();
+  $('#riddleFour').show();
+});
 });
