@@ -33,7 +33,7 @@ button{
 }
 
 /****Hide*****/
-#riddleOne, #riddleOneSuccess, #riddleOneFail, #riddleTwoSuccess, #riddleTwoFail, #riddleTwo, #riddleThreeSuccess, #riddleThreeFail, #riddleThree, #riddleFour, #riddleFourSuccess, #riddleFourFail, #ai, #player, #player-won, #ai-won {
+#riddleOne, #riddleOneSuccess, #riddleOneFail, #riddleTwoSuccess, #riddleTwoFail, #riddleTwo, #riddleThreeSuccess, #riddleThreeFail, #riddleThree, #riddleFour, #riddleFourSuccess, #riddleFourFail, #ai, #player, #player-won, #ai-won, #battleSixSuccess,  #battleSixFail{
   display: none;
 }
 
