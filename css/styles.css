@@ -33,11 +33,16 @@ button{
 }
 
 /****Hide*****/
-#riddleOne, #riddleOneSuccess, #riddleOneFail, #riddleTwoSuccess, #riddleTwoFail, #riddleTwo, #riddleThreeSuccess, #riddleThreeFail, #riddleThree, #riddleFour, #riddleFourSuccess, #riddleFourFail, #ai  {
+#riddleOne, #riddleOneSuccess, #riddleOneFail, #riddleTwoSuccess, #riddleTwoFail, #riddleTwo, #riddleThreeSuccess, #riddleThreeFail, #riddleThree, #riddleFour, #riddleFourSuccess, #riddleFourFail, #ai, #player, #player-won, #ai-won {
   display: none;
 }
 
 #no-line {
   text-decoration: none;
   color: black;
+}
+/***rock paper scissors imgs***/
+.img-top {
+  width: 0px;
+
 }
